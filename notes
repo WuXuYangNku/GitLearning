@@ -12,4 +12,15 @@ install
 	工作区 暂缓区stage-----记录的是修改而不是文件---checkout reset(撤销) rm
 
 远程仓库：
-	remote add origin; push origin master 
+	remote add origin; push origin master https ssh clone
+
+分支管理： 
+	合并：快速合并 冲突合并
+	分支策略：master-- dev-
+	bug分支：工作区现场保护--stash; stash pop; list stash cherry-pick
+	Feature分支
+	多人协作：push分支（master dev feature） fecth分支---pull
+
+	rebase：方便查看提交历史----以后再看了----
+
+	标签： tag
