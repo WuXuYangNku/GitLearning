@@ -5,3 +5,11 @@ What?
 install
 
 创建仓库 add commit status diff
+
+
+版本控制：log reset --hard head^ reflog
+
+	工作区 暂缓区stage-----记录的是修改而不是文件---checkout reset(撤销) rm
+
+远程仓库：
+	remote add origin; push origin master 
